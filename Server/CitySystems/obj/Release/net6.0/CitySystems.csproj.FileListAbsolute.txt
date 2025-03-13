@@ -1,0 +1,7 @@
+C:\Users\Gal\source\repos\CitySystems\CitySystems\obj\Release\net6.0\CitySystems.csproj.AssemblyReference.cache
+C:\Users\Gal\source\repos\CitySystems\CitySystems\obj\Release\net6.0\CitySystems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gal\source\repos\CitySystems\CitySystems\obj\Release\net6.0\CitySystems.AssemblyInfoInputs.cache
+C:\Users\Gal\source\repos\CitySystems\CitySystems\obj\Release\net6.0\CitySystems.AssemblyInfo.cs
+C:\Users\Gal\source\repos\CitySystems\CitySystems\obj\Release\net6.0\CitySystems.csproj.CoreCompileInputs.cache
+C:\Users\Gal\source\repos\CitySystems\CitySystems\obj\Release\net6.0\CitySystems.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gal\source\repos\CitySystems\CitySystems\obj\Release\net6.0\CitySystems.MvcApplicationPartsAssemblyInfo.cache

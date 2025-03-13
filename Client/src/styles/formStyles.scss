@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.cdnfonts.com/css/abeezee');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+$primary-color: #007aff;
+$text-gray: #777;
+$white: #fff;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.registration-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  height: 100vh; 
+  flex-direction: column;
+  overflow-y: auto;
+  
+  .form-side {
+    direction: rtl;
+    background-color: $white;
+    text-align: right;
+    font-family: 'Assistant' , sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -2%;
+    box-sizing: border-box; 
+
+
+    .logo {
+      width: 120px;
+      display: block;
+      margin-inline-end: 100px;
+      margin-inline-start: 100px;
+
+    }
+
+    h2 {
+      margin-inline-end: 100px;
+      margin-inline-start: 100px;    
+      text-align: right; 
+      margin-bottom: 0px;
+
+    }
+
+    .form-header {
+      margin-inline-end: 100px;
+      margin-inline-start: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      direction: rtl;
+      font-size : 14px;
+    
+
+    
+      .form-warning{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: red;
+      }
+    }
+    
+    
+
+    form {
+      margin-inline-end: 100px;
+      margin-inline-start: 100px;
+
+      .form-row {
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+
+        .ant-form-item {
+          flex: 1;
+        }
+   
+      .ant-select,.ant-select-selector{
+        flex: 1;
+        width: 100%;
+        border-radius: 3px;
+        height: 40px !important;
+      }
+        
+      }
+
+      .ant-form-item {
+        margin-bottom: 15px;
+      }
+
+      .login-link {
+        text-align: center;
+        margin-top: 0px;
+      }
+
+      .store-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: 0px;
+        justify-content: left;
+
+        img {
+          width: 130px;
+        }
+      }
+    }
+  }
+}
+
+  input, .ant-input, .ant-picker-input,.ant-input-password{
+    border-radius: 3px; 
+    height: 40px;
+  }
+
+  .ant-checkbox-inner {
+    border-radius: 3px; 
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -2%;
+
+  }
+
+
+  .abeezee-regular {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 47px ;
+    line-height: 150%;
+    letter-spacing: 2%;
+    text-align: center;
+  }
+
+
+  .visual-side {
+    background-color: $primary-color;
+    color: $white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+    height: 100%;
+
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .phones-image {
+      width: 70%;
+      max-width: 400px;
+      margin-top:  70px;
+      position: relative; 
+      z-index: 1;
+  }
+
+  .ellipse-image {
+    position: absolute; 
+    left: 50%;
+    width: 100%;
+    max-width: 600px;
+    transform: translateX(-50%); 
+    z-index: 0; 
+  }
+
+
+  }
+
+
+@media (max-width: 768px) {
+  .registration-container {
+    flex-direction: row;
+  }
+
+  .form-side {
+    padding: 20px;
+    max-width: 100%; 
+  }
+
+  .visual-side {
+    height: 70%; 
+    padding: 10px;
+  }
+
+  .ellipse-image {
+    width: 80%; 
+    margin-top: 20px;
+  }
+
+
+  .phones-image {
+    width: 80%; 
+    margin-top: 30px;
+  }
+
+  .abeezee-regular {
+    font-size: 30px; 
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-side {
+    padding: 10px; 
+  }
+
+  .phones-image {
+    width: 90%; 
+  }
+
+  .ellipse-image {
+    width: 100%; 
+  }
+
+  .abeezee-regular {
+    font-size: 24px; 
+    margin-top: 20px;
+  }
+}
