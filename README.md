@@ -1,6 +1,6 @@
+**Link to view:** https://www.loom.com/share/8f9b1c1a304b4712b4f8ea1e22488893?sid=476c30ff-f639-4201-96e8-8aa78fc14a72
 
 **Front End Home Task**
-
 Figma Design
 
 The Figma design can be accessed via this [link](https://www.figma.com/design/KwwJjqXR8KOBfP1Qj5gfYS/%D7%AA%D7%A8%D7%92%D7%99%D7%9C-%D7%9C%D7%91%D7%99%D7%A6%D7%95%D7%A2?node-id=0-1&t=9bI8a9cWOIG3XdJO-0).
